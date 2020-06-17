@@ -154,13 +154,13 @@ pipelines:
         execution:
           onExecute:
             - printenv
-      - name: myStep8
-        type: Bash
-        configuration: 
-          inputResources: # optional
-            - name: gitResource7
-          inputSteps: 
-            - name: myStep7
-        execution:
-          onExecute:
-            - printenv
+#       - name: myStep8
+#         type: Bash
+#         configuration: 
+#           inputResources: # optional
+#             - name: gitResource7
+#           inputSteps: 
+#             - name: myStep7
+#         execution:
+#           onExecute:
+#             - printenv
